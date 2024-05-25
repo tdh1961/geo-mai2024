@@ -8,7 +8,7 @@ pipeline{
             steps {
              withSonarQubeEnv('sonarq') {
             sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-            -Dsonar.projectKey=geolocation_geosolution'
+            -Dsonar.projectKey=tdh1961_geo-mai2024'
 
              }
             }

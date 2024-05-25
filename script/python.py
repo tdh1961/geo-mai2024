@@ -2,7 +2,7 @@
 
 import os 
 
-print("hello Serge")
+print("hello Huguette")
 
 os.system("nproc")
 os.system("uname -r")

@@ -27,10 +27,10 @@ pipeline{
         steps{
             sh 'curl -uadmin:AP2pVAGB8Lcqx4h8N6Rvrn75bDo -T \
             target/bio*.jar \
-            "http://107.23.121.36:8081/artifactory/geolocation/geo/bio_${BUILD_ID}.jar"'  
+            "http://35.153.71.21:8081/artifactory/geoLocation1/geo/bio_${BUILD_ID}.jar"'  
             
             }
+        }
     }
-   }
   
 }
